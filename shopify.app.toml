@@ -2,7 +2,7 @@
 
 client_id = "ac8b52ec4db3efbcb67c1e14be2404f4"
 name = "Print Labels"
-application_url = "https://historical-ricky-serious-asin.trycloudflare.com"
+application_url = "https://sponsors-lambda-competition-attacked.trycloudflare.com"
 embedded = true
 handle = "print-labels-3"
 
@@ -26,7 +26,7 @@ api_version = "2025-07"
 scopes = "read_orders"
 
 [auth]
-redirect_urls = ["https://historical-ricky-serious-asin.trycloudflare.com/auth/callback", "https://historical-ricky-serious-asin.trycloudflare.com/auth/shopify/callback", "https://historical-ricky-serious-asin.trycloudflare.com/api/auth/callback"]
+redirect_urls = ["https://sponsors-lambda-competition-attacked.trycloudflare.com/auth/callback", "https://sponsors-lambda-competition-attacked.trycloudflare.com/auth/shopify/callback", "https://sponsors-lambda-competition-attacked.trycloudflare.com/api/auth/callback"]
 
 [pos]
 embedded = false
