@@ -1,0 +1,9 @@
+[[extensions]]
+type = "admin_link"
+name = "Print Labels"
+handle = "print-labels-link"
+
+# Mostra il link in Ordine → Altre azioni
+[[extensions.targeting]]
+target = "admin.order-details.action.link"
+url = "/app/print-labels"

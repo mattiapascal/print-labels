@@ -1,0 +1,9 @@
+[[extensions]]
+type = "admin_link"
+name = "Print Labels (Bulk)"
+handle = "print-labels-bulk-link"
+
+# ✅ Elenco ordini → selezione multipla → Altre azioni
+[[extensions.targeting]]
+target = "admin.order-index.selection-action.link"
+url = "/app/print-labels"
